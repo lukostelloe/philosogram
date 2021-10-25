@@ -10,14 +10,13 @@ import socratesimg from "../images/socrates.jpg";
 
 const imageArray = [aristotleimg, bertrandimg, humeimg, platoimg, socratesimg];
 
-var randomimage = imageArray[Math.floor(Math.random() * imageArray.length)];
+// var randomimage = imageArray[Math.floor(Math.random() * imageArray.length)];
 
 function Random() {
   const [imageused, setimageused] = useState(thelads);
 
   const changeTick = () => {
-    setimageused(thelads);
-    setimageused(randomimage);
+    setimageused(imageArray[Math.floor(Math.random() * imageArray.length)]);
   };
 
   return (
