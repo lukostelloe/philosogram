@@ -1,4 +1,4 @@
-.container {
+.login_container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,14 +8,63 @@
 }
 
 .container_form {
+  width: 25%;
+  height: 25%;
+
+  margin: 100px;
+
   background-color: white;
   border-radius: 5px;
   padding: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0px 5px 10px 5px rgb(209, 209, 209);
 }
 
 .container_form_form {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.form_input {
+  height: 40px;
+  width: 90%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.form_login_button {
+  height: 40px;
+  width: 90%;
+
+  margin: 10px;
+
+  border-radius: 5px;
+  border: none;
+
+  background-color: #3a73be;
+  color: white;
+}
+
+.form_login_forgot {
+  margin: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+.form_login_create {
+  height: 40px;
+  width: 90%;
+  margin: 10px;
+
+  border-radius: 5px;
+  border: none;
+
+  text-decoration: none;
+  background-color: rgb(26, 160, 71);
+  color: white;
 }

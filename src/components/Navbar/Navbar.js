@@ -5,7 +5,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <Link to="/homepage" className="link">
+      <Link to="/feed" className="link">
         philosogram
       </Link>
       <input type="text" placeholder="Search.." className="link" />
@@ -13,8 +13,8 @@ function Navbar() {
         <Link to="/login" className="link">
           Login
         </Link>
-        <Link to="/homepage" className="link">
-          Homepage
+        <Link to="/feed" className="link">
+          Feed
         </Link>
         <Link to="/random" className="link">
           Random
