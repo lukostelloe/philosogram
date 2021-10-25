@@ -16,16 +16,17 @@ function Random() {
   const [imageused, setimageused] = useState(thelads);
 
   const changeTick = () => {
+    //PLACING THE RANDOM IMAGE VARIABLE IN HERE DOESN'T WORK
     setimageused(imageArray[Math.floor(Math.random() * imageArray.length)]);
   };
 
   return (
     <div className="container_random">
       <h1>Random Image Page</h1>
-      <button onClick={changeTick}>Hit me with some philosophy</button>
       <div className="random_image">
         <img src={imageused} alt="hello" className="random_image" />
       </div>
+      <button onClick={changeTick}>Hit me with some philosophy</button>
     </div>
   );
 }
