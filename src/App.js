@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Login from "./components/Login/Login";
 import Feed from "./components/Feed/Feed";
 import Random from "./components/Random/Random";
+import Philpage from "./components/Philpage/Philpage";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/feed" component={Feed} />
           <Route path="/random" component={Random} />
+          <Route path="/philpage" component={Philpage} />
         </Switch>
       </div>
     </Router>

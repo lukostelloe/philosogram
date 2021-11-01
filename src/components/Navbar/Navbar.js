@@ -19,6 +19,9 @@ function Navbar() {
         <Link to="/random" className="link">
           Random
         </Link>
+        <Link to="/philpage" className="link">
+          Philpage
+        </Link>
       </div>
     </div>
   );
